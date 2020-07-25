@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import BootNavbar from "./components/navbar";
+import Stats from "./components/stats";
+import Prevention from "./components/prevention";
+import Hotline from "./components/hotline";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+	render() {
+		return (
+			<>
+				<Router>
+					<BootNavbar />
+					<Switch>
+						<Route path="/" exact>
+							<Stats />
+						</Route>
+						<Route path="/prevention" exact>
+							<Prevention />
+						</Route>
+						<Route path="/hotline" exact>
+							<Hotline />
+						</Route>
+					</Switch>
+				</Router>
+			</>
+		);
+	}
 }
 
 export default App;
