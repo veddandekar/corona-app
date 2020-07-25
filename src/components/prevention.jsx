@@ -9,10 +9,10 @@ class Prevent extends React.Component {
 		this.state = {
 			data: [
 				{
-					description: "ABCD",
+					description: "Exercise",
 					img: covid1,
 				},
-				{ description: "BCDE", img: covid2 },
+				{ description: "Healthy Diet", img: covid2 },
 			],
 		};
 	}
