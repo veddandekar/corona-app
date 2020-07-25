@@ -1,27 +1,29 @@
 {
   "files": {
     "main.css": "/corona-app/static/css/main.46ddc316.chunk.css",
-    "main.js": "/corona-app/static/js/main.0dda9779.chunk.js",
-    "main.js.map": "/corona-app/static/js/main.0dda9779.chunk.js.map",
+    "main.js": "/corona-app/static/js/main.a6d4a65e.chunk.js",
+    "main.js.map": "/corona-app/static/js/main.a6d4a65e.chunk.js.map",
     "runtime-main.js": "/corona-app/static/js/runtime-main.b00f6dba.js",
     "runtime-main.js.map": "/corona-app/static/js/runtime-main.b00f6dba.js.map",
     "static/css/2.af3c1da9.chunk.css": "/corona-app/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1bbadbec.chunk.js": "/corona-app/static/js/2.1bbadbec.chunk.js",
-    "static/js/2.1bbadbec.chunk.js.map": "/corona-app/static/js/2.1bbadbec.chunk.js.map",
+    "static/js/2.81b80f56.chunk.js": "/corona-app/static/js/2.81b80f56.chunk.js",
+    "static/js/2.81b80f56.chunk.js.map": "/corona-app/static/js/2.81b80f56.chunk.js.map",
     "index.html": "/corona-app/index.html",
-    "precache-manifest.3a042a2f905ef81f4c5622657ebad64c.js": "/corona-app/precache-manifest.3a042a2f905ef81f4c5622657ebad64c.js",
+    "precache-manifest.bfc6cb5ee94adafdb67f73a6a6f71e64.js": "/corona-app/precache-manifest.bfc6cb5ee94adafdb67f73a6a6f71e64.js",
     "service-worker.js": "/corona-app/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/corona-app/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.46ddc316.chunk.css.map": "/corona-app/static/css/main.46ddc316.chunk.css.map",
-    "static/js/2.1bbadbec.chunk.js.LICENSE.txt": "/corona-app/static/js/2.1bbadbec.chunk.js.LICENSE.txt",
+    "static/js/2.81b80f56.chunk.js.LICENSE.txt": "/corona-app/static/js/2.81b80f56.chunk.js.LICENSE.txt",
     "static/media/covid1.png": "/corona-app/static/media/covid1.c8e45de0.png",
-    "static/media/covid2.png": "/corona-app/static/media/covid2.2e641595.png"
+    "static/media/covid2.png": "/corona-app/static/media/covid2.2e641595.png",
+    "static/media/covid3.png": "/corona-app/static/media/covid3.e3a823d6.png",
+    "static/media/covid4.png": "/corona-app/static/media/covid4.bee3a679.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b00f6dba.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1bbadbec.chunk.js",
+    "static/js/2.81b80f56.chunk.js",
     "static/css/main.46ddc316.chunk.css",
-    "static/js/main.0dda9779.chunk.js"
+    "static/js/main.a6d4a65e.chunk.js"
   ]
 }
