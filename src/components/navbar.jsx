@@ -17,25 +17,25 @@ const BootNavbar = (props) => {
 
 	return (
 		<div>
-			<Navbar color="light" light expand="md">
-				<Link to="/">
+			<Navbar color="light" light expand="md" fixed="top">
+				<Link to="/corona-app/">
 					<NavbarBrand className="mb-1">COVID Tracker</NavbarBrand>
 				</Link>
 				<NavbarToggler onClick={toggle} />
 				<Collapse isOpen={isOpen} navbar>
 					<Nav className="mr-auto" navbar>
 						<NavItem>
-							<Link to="/">
+							<Link to="/corona-app/">
 								<NavLink>Stats</NavLink>
 							</Link>
 						</NavItem>
 						<NavItem>
-							<Link to="/prevention">
+							<Link to="/corona-app/prevention">
 								<NavLink>Prevention</NavLink>
 							</Link>
 						</NavItem>
 						<NavItem>
-							<Link to="/hotline">
+							<Link to="/corona-app/hotline">
 								<NavLink>Hotlines</NavLink>
 							</Link>
 						</NavItem>

@@ -61,7 +61,7 @@ class Stats extends React.Component {
 
 	render() {
 		return (
-			<Container>
+			<Container className="mt-5">
 				<br />
 				<br />
 				<Row className="text-center justify-content-center">

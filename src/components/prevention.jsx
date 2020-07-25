@@ -19,7 +19,7 @@ class Prevent extends React.Component {
 
 	render() {
 		return (
-			<Row>
+			<Row className="mt-5">
 				{this.state.data.map((obj) => {
 					return (
 						<Col xs={12} md={6} lg={4}>

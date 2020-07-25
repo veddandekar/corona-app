@@ -12,13 +12,13 @@ class App extends React.Component {
 				<Router>
 					<BootNavbar />
 					<Switch>
-						<Route path="/" exact>
+						<Route path="/corona-app/" exact>
 							<Stats />
 						</Route>
-						<Route path="/prevention" exact>
+						<Route path="/corona-app/prevention" exact>
 							<Prevention />
 						</Route>
-						<Route path="/hotline" exact>
+						<Route path="/corona-app/hotline" exact>
 							<Hotline />
 						</Route>
 					</Switch>
